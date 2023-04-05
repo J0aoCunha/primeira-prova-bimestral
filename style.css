@@ -1,0 +1,143 @@
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    display: flex;
+    background-color: rgb(204, 57, 57);
+    justify-content: space-around;
+}
+
+.imagem {
+    height: 700px;
+    width: 1890px;
+}
+
+.linhas {
+    display: flex;
+    flex-direction: column;
+    line-height: 0%;
+    margin-top: 60px;
+    margin-left: 90px;
+    font-family: monospace;
+    color: rgb(204, 57, 57);
+}
+
+.paragrafo {
+    display: inline-block;
+    text-align: start;
+    width: 30%;
+    margin-left: 80px;
+    font-size: larger;
+
+}
+
+.biografia {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    position: relative;
+    left: 1000px;
+    bottom: 480px;
+}
+
+.biografia_2 {
+    background-color: rgb(204, 57, 57);
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    background-color: rgb(204, 57, 57);
+}
+
+.our {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+    left: 1370px;
+    bottom: 775px;
+}
+
+.our_2 {
+    background-color: rgb(204, 57, 57);
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.founder {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    position: relative;
+    left: 1000px;
+    bottom: 750px;
+}
+
+.founder_2 {
+    background-color: rgb(204, 57, 57);
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.referrals {
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    position: relative;
+    left: 1370px;
+    bottom: 1020px;
+}
+
+.referrals_2 {
+    background-color: rgb(204, 57, 57);
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.referrals_3 {
+    width: 210px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    position: relative;
+    left: 1000px;
+    bottom: 1020px;
+}
+
+.forms_2 {
+    background-color: rgb(204, 57, 57);
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.historia {
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    position: relative;
+    left: 1370px;
+    bottom: 1295px;
+}
+
+.historia_2 {
+    background-color: rgb(204, 57, 57);
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.historia_3 {
+    width: 210px;
+    height: 200px;
+}
