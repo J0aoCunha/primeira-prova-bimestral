@@ -1,143 +1,115 @@
-body {
-    background-color: antiquewhite;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    background-color: #a04f65;
+}
+
+nav ul {
+
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+}
+
+nav ul li {
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    justify-content: center;
+}
+
+nav ul li:not(:nth-last-child(1)) {
+    border-right: 1px solid white;
 }
 
 header {
+    width: 100%;
+    background-color: #f2f0e5;
+    background-size: cover;
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    background-color: #f2f0e5;
     display: flex;
-    background-color: rgb(204, 57, 57);
-    justify-content: space-around;
+}
+
+section#texto {
+    width: 40%;
+}
+
+p {
+    display: inline-block;
+    text-align: start;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: larger;
+}
+
+section#texto h1 {
+    color: #a04f65;
+    text-align: start;
+    display: flex;
+    margin-left: 10%;
+    padding-top: 5%;
+}
+
+section#imagens {
+    width: 60%;
+    padding: 20px;
+}
+
+.linha {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .imagem {
-    height: 700px;
-    width: 1890px;
-}
-
-.linhas {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    line-height: 0%;
-    margin-top: 60px;
-    margin-left: 90px;
-    font-family: monospace;
-    color: rgb(204, 57, 57);
-}
-
-.paragrafo {
-    display: inline-block;
-    text-align: start;
-    width: 30%;
-    margin-left: 80px;
-    font-size: larger;
+    padding-bottom: 2%;
 
 }
 
-.biografia {
+.imagem img {
+    width: 50%;
     display: flex;
-    flex-direction: column;
-    width: 300px;
-    position: relative;
-    left: 1000px;
-    bottom: 480px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 0px 3px #a04f65;
+
 }
 
-.biografia_2 {
-    background-color: rgb(204, 57, 57);
-    font-size: x-large;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.imagem h3 {
+    background-color: #a04f65;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    width: 50%;
 }
 
 footer {
-    background-color: rgb(204, 57, 57);
-}
-
-.our {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    position: relative;
-    left: 1370px;
-    bottom: 775px;
-}
-
-.our_2 {
-    background-color: rgb(204, 57, 57);
-    font-size: x-large;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.founder {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    position: relative;
-    left: 1000px;
-    bottom: 750px;
-}
-
-.founder_2 {
-    background-color: rgb(204, 57, 57);
-    font-size: x-large;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.referrals {
-    display: flex;
-    flex-direction: column;
-    width: 225px;
-    position: relative;
-    left: 1370px;
-    bottom: 1020px;
-}
-
-.referrals_2 {
-    background-color: rgb(204, 57, 57);
-    font-size: x-large;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.referrals_3 {
-    width: 210px;
-}
-
-.forms {
-    display: flex;
-    flex-direction: column;
-    width: 225px;
-    position: relative;
-    left: 1000px;
-    bottom: 1020px;
-}
-
-.forms_2 {
-    background-color: rgb(204, 57, 57);
-    font-size: x-large;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-
-.historia {
-    display: flex;
-    flex-direction: column;
-    width: 225px;
-    position: relative;
-    left: 1370px;
-    bottom: 1295px;
-}
-
-.historia_2 {
-    background-color: rgb(204, 57, 57);
-    font-size: x-large;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.historia_3 {
-    width: 210px;
-    height: 200px;
+    background-color: #a04f65;
+    padding: 20px;
 }
